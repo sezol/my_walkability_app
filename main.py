@@ -1,6 +1,6 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-import introduction, data_prep, models, conclusion, about_me
+import walkability_app.introduction as introduction, data_prep, models, conclusion, about_me
 
 
 st.set_page_config(page_title="Walkability Analysis", layout="wide")

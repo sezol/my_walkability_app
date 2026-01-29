@@ -1,0 +1,48 @@
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Jupyter / IPython
+.ipynb_checkpoints
+*.ipynb
+
+# VSCode settings
+.vscode/
+.history/
+
+# Streamlit / cache folders
+.streamlit/
+.cache/
+
+# Data / large files
+*.xlsx
+*.csv
+*.zip
+*.tar.gz
+*.sqlite
+cleaned_data/
+walk_image.jpg
+
+# Logs
+*.log
+
+# Any secrets / environment files
+.env
+*.key
+*.pem
+
+# Ignore internal git folders for submodules (if any)
+walkability_app/.git/
