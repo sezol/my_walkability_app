@@ -45,14 +45,14 @@ def app():
             margin-bottom: 35px;
         }
         
-        .image-caption {
-            text-align: center;
-            font-size: 14px;
-            color: #777777;
-            font-style: italic;
-            margin-top: 12px;
-            margin-bottom: 40px;
-        }
+        # .image-caption {
+        #     text-align: center;
+        #     font-size: 14px;
+        #     color: #777777;
+        #     font-style: italic;
+        #     margin-top: 12px;
+        #     margin-bottom: 40px;
+        # }
         
         .question-item {
             font-size: 16px;
@@ -146,17 +146,17 @@ def app():
     </p>
     """, unsafe_allow_html=True)
     
-    # Image 
-    st.markdown('<div style="margin: 50px 0 20px 0;">', unsafe_allow_html=True)
-    st.image("walk_image.jpg", use_container_width=True)
+    # # Image 
+    # st.markdown('<div style="margin: 50px 0 20px 0;">', unsafe_allow_html=True)
+    # st.image("walk_image.jpg", use_container_width=True)
     
     
-    st.markdown("""
-    <p class="image-caption">
-    Walkable neighborhoods emphasize pedestrian connectivity, mixed land use, and human-scale urban design.
-    </p>
-    """, unsafe_allow_html=True)
-    st.markdown('</div>', unsafe_allow_html=True)
+    # st.markdown("""
+    # <p class="image-caption">
+    # Walkable neighborhoods emphasize pedestrian connectivity, mixed land use, and human-scale urban design.
+    # </p>
+    # """, unsafe_allow_html=True)
+    # st.markdown('</div>', unsafe_allow_html=True)
     
     # Research Questions section
     st.markdown('<h2 class="section-header">Research Questions</h2>', unsafe_allow_html=True)
