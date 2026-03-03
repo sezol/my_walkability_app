@@ -116,6 +116,12 @@ def app():
     </p>
     """, unsafe_allow_html=True)
 
+    
+    st.image(
+    "https://images.unsplash.com/photo-1745864383932-ce2e7edf92eb?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    caption="A busy pedestrian crossing in Shibuya, Tokyo — illustrating dense urban walkability.",
+    use_container_width=True
+    )
     # Paragraph 2
     st.markdown("""
     <p class="body-text">
@@ -135,7 +141,26 @@ def app():
     conditions.
     </p>
     """, unsafe_allow_html=True)
+
+    st.markdown("""
+    <p class="body-text">
+    This analysis utilizes the Walkability Index developed by the United States Environmental Protection Agency
+    as part of its Smart Location Database. The index is constructed using standardized measures of intersection
+    density, proximity to transit stops, employment mix, and employment-to-household mix. Each component is ranked
+    nationally and weighted to produce a composite score ranging from 1 to 20, where higher values indicate greater
+    walkability. Because the methodology applies consistent national scaling, it allows for direct comparison across
+    metropolitan regions, suburban areas, and rural communities. By leveraging this structured framework, the
+    present study examines spatial patterns in walkability across U.S. census block groups and evaluates how
+    urban form, accessibility, and land use intensity shape pedestrian-oriented environments. The use of nationally
+    standardized indicators ensures methodological rigor and supports reproducible geographic analysis.
+    </p>
+    """, unsafe_allow_html=True)
     
+    st.image(
+    "https://images.unsplash.com/photo-1494526585095-c41746248156",
+    caption="Dense urban environments typically exhibit higher intersection density and mixed land use patterns.",
+    use_container_width=True    
+    )   
     st.markdown("""
     <p class="body-text">
     Urban planning and transportation policies increasingly emphasize walkability as a tool for improving quality 
