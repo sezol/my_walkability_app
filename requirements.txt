@@ -3,3 +3,7 @@ streamlit-option-menu
 pandas
 numpy
 matplotlib
+seaborn
+matplotlib
+scikit-learn
+# Add any other libraries your code imports (e.g., numpy, plotly, etc.)
