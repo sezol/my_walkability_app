@@ -189,16 +189,16 @@ def app():
     dims_95 = int(np.searchsorted(cumev, 0.95)) + 1
     st.markdown(f"""
     <div class="callout">
-    📌 <strong>2D dataset retains {cumev[1]*100:.1f}% of information</strong> — 
+    <strong>2D dataset retains {cumev[1]*100:.1f}% of information</strong> — 
     using just 2 principal components we keep {cumev[1]*100:.1f}% of the total variance 
     from all 12 original features.
     </div>
     <div class="callout green">
-    📌 <strong>3D dataset retains {cumev[2]*100:.1f}% of information</strong> — 
+    <strong>3D dataset retains {cumev[2]*100:.1f}% of information</strong> — 
     adding a third component bumps this to {cumev[2]*100:.1f}%.
     </div>
     <div class="callout orange">
-    📌 <strong>To retain 95% you need {dims_95} principal components</strong> — 
+    <strong>To retain 95% you need {dims_95} principal components</strong> — 
     down from 12 original features. That's a {round((1-dims_95/12)*100)}% reduction in dimensionality.
     </div>
     """, unsafe_allow_html=True)

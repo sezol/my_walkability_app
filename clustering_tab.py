@@ -329,7 +329,7 @@ def app():
 
     st.markdown(f"""
     <div class="callout green">
-    📊 <strong>Hierarchical vs K-Means comparison:</strong> Both methods identify 4 meaningful 
+     <strong>Hierarchical vs K-Means comparison:</strong> Both methods identify 4 meaningful 
     groups that roughly correspond to the EPA's walkability categories. Hierarchical clustering 
     (Ward) produces a silhouette of {agg_sil:.3f} compared to K-Means k=4 silhouette of 
     {km_results.get(4, {'sil': silhouette_score(X, KMeans(4,random_state=42,n_init=10).fit_predict(X))})['sil']:.3f}. 
