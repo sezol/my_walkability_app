@@ -307,7 +307,7 @@ The same 80/20 stratified split is used as all other supervised models for fair 
 
     st.markdown("""
 **GitHub Links:**
-[Ensemble Code](https://github.com/sezol/my_walkability_app/blob/main/_ensemble_tab.py) |
+[Ensemble Code](https://github.com/sezol/my_walkability_app/blob/main/ensemble_tab.py) |
 [Dataset](https://github.com/sezol/my_walkability_app/blob/main/walkability_cleaned.csv)
 """)
 
@@ -351,9 +351,7 @@ print(importances.sort_values(ascending=False))
 
     st.markdown("---")
 
-    # ══════════════════════════════════════════════════════════════════
     # (c) RESULTS
-    # ══════════════════════════════════════════════════════════════════
     section("③", "Results")
 
     rf_model, y_pred, y_te_res, features = run_rf()
@@ -514,7 +512,6 @@ sense: the EPA designed the ranked scores specifically to be discriminative betw
 
     # ══════════════════════════════════════════════════════════════════
     # (d) COMPARISON OF ALL MODELS
-    # ══════════════════════════════════════════════════════════════════
     section("④", "Final Comparison — All Models Across All Modules")
 
     all_results = run_all_models_comparison()
