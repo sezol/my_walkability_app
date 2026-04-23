@@ -737,7 +737,7 @@ Polynomial underperforms slightly at lower C values but catches up at higher C.
 
     st.markdown("""
 **GitHub Links:**
-[SVM Code](https://github.com/sezol/my_walkability_app/blob/main/models/svm_tab.py) |
+[SVM Code](https://github.com/sezol/my_walkability_app/blob/main/_svm_tab.py) |
 [Dataset](https://github.com/sezol/my_walkability_app/blob/main/walkability_cleaned.csv)
 """)
 

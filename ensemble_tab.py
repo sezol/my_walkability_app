@@ -307,7 +307,7 @@ The same 80/20 stratified split is used as all other supervised models for fair 
 
     st.markdown("""
 **GitHub Links:**
-[Ensemble Code](https://github.com/sezol/my_walkability_app/blob/main/models/ensemble_tab.py) |
+[Ensemble Code](https://github.com/sezol/my_walkability_app/blob/main/_ensemble_tab.py) |
 [Dataset](https://github.com/sezol/my_walkability_app/blob/main/walkability_cleaned.csv)
 """)
 
