@@ -2,8 +2,6 @@ import streamlit as st
 import pandas as pd
 import os
 from pathlib import Path
-import sys, os
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 def app():
     
@@ -404,5 +402,3 @@ def app():
     
     # Spacer
     st.markdown('<div style="margin-bottom: 60px;"></div>', unsafe_allow_html=True)
-
-    app()

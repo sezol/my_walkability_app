@@ -1,3 +1,4 @@
+import os
 """
 Conclusion Page — EPA Walkability Index
 Author: Sejal Hukare
@@ -13,8 +14,6 @@ import matplotlib.patches as mpatches
 import seaborn as sns
 import warnings
 warnings.filterwarnings("ignore")
-import sys, os
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 BLUE   = "#3498db"; GREEN  = "#2ecc71"; RED    = "#e74c3c"
 ORANGE = "#f39c12"; PURPLE = "#9b59b6"; TEAL   = "#1abc9c"
@@ -720,5 +719,3 @@ def app():
     """, unsafe_allow_html=True)
 
     st.markdown('<div style="margin-bottom:80px;"></div>', unsafe_allow_html=True)
-
-    app()

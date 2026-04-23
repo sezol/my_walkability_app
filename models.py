@@ -5,18 +5,17 @@ Author: Sejal Hukare
 
 import streamlit as st
 import importlib
-import sys, os
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 
 METHODS = {
-    "PCA":                     "models.pca_tab",
-    "Clustering":              "models.clustering_tab",
-    "Association Rule Mining": "models.arm_tab",
-    "Naive Bayes":             "models.nb_tab",
-    "Decision Tree":           "models.dt_tab",
-    "Regression":              "models.regression_tab",
-    "SVM":                     "models.svm_tab",
-    "Ensemble (Random Forest)":"models.ensemble_tab",
+    "PCA":                     "pca_tab",
+    "Clustering":              "clustering_tab",
+    "Association Rule Mining": "arm_tab",
+    "Naive Bayes":             "nb_tab",
+    "Decision Tree":           "dt_tab",
+    "Regression":              "regression_tab",
+    "SVM":                     "svm_tab",
+    "Ensemble (Random Forest)":"ensemble_tab",
 }
 
 
@@ -41,4 +40,3 @@ def app():
 
     module = importlib.import_module(METHODS[selected])
     module.app()
-    app()

@@ -1,3 +1,4 @@
+import os
 """
 SVM Tab — EPA Walkability Index
 Module 4: Support Vector Machines

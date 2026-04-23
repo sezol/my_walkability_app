@@ -1,7 +1,5 @@
 import streamlit as st
 import streamlit.components.v1 as components
-import sys, os
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 def app():
     st.markdown("""
@@ -398,5 +396,3 @@ def app():
     )
     st.markdown('</div>', unsafe_allow_html=True)
     st.markdown('<div style="margin-bottom:60px;"></div>', unsafe_allow_html=True)
-
-    app()

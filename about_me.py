@@ -12,8 +12,6 @@ from PIL import Image
 import base64
 from io import BytesIO
 warnings.filterwarnings("ignore")
-import sys, os
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 BLUE   = "#3498db"; GREEN  = "#2ecc71"; RED    = "#e74c3c"
 ORANGE = "#f39c12"; PURPLE = "#9b59b6"; TEAL   = "#1abc9c"
@@ -462,5 +460,3 @@ def app():
             """, unsafe_allow_html=True)
 
     st.markdown('<div style="margin-bottom:80px;"></div>', unsafe_allow_html=True)
-
-    app()

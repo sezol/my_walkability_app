@@ -1,3 +1,4 @@
+import os
 """
 Naive Bayes Tab — EPA Walkability Index
 Module 3: Supervised Learning

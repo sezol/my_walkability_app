@@ -1,3 +1,4 @@
+import os
 """
 Ensemble Tab — EPA Walkability Index
 Module 4: Random Forest Ensemble Learning
